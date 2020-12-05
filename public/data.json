@@ -1,0 +1,110 @@
+{
+  "personal": {
+    "name": "Thomas Morgan",
+    "occupation": "React Developer",
+    "description": "Full Stack React Developer",
+    "image": "tom.jpg",
+    "bio": "My name is Tom, I'm a Full Stack ReactJS Developer. I'm currently looking for employment as a Junior Dev."
+  },
+  "contact": {
+    "message": "Please feel free to send me a message via phone or email.",
+    "email": "thomas.morgan@btinternet.com",
+    "phone": "07527 926 302"
+  },
+  "education": {
+    "college": "Coleg Gwent",
+    "qualification": "BTEC Level 3 IT Extended Diploma",
+    "date": "September 2017 - June 2019"
+  },
+  "social": [
+    {
+      "name": "email",
+      "url": "thomas.morgan@btinternet.com",
+      "className": "fa fa-envelope"
+    },
+    {
+      "name": "linkedin",
+      "url": "https://www.linkedin.com/in/thomas-morgan-519356171/",
+      "className": "fa fa-linkedin"
+    },
+    {
+      "name": "github",
+      "url": "https://github.com/tom-morgan00",
+      "className": "fa fa-github"
+    }
+  ],
+  "skills": {
+    "personal": [
+      "Problem-solving",
+      "Creative",
+      "Highly-motivated",
+      "Communication",
+      "Eager to learn"
+    ],
+    "technologies": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "React",
+      "Redux",
+      "Node",
+      "Express",
+      "MongoDB",
+      "PostgreSQL",
+      "NPM",
+      "Git",
+      "Bootstrap",
+      "Semantic UI",
+      "Visual Studio Code"
+    ]
+  },
+  "portfolio": {
+    "projects": [
+      {
+        "title": "Tom's Vinyl",
+        "desc": "Ecommerce website built with MongoDB, Express, React, Redux, Node",
+        "image": "toms-vinyl.jpg",
+        "url": {
+          "demo": "demo",
+          "source": "source"
+        }
+      },
+      {
+        "title": "TOMDb",
+        "category": "Movie Website (IMDB clone) built with React, Redux, Bootstrap, OMDb API)",
+        "image": "tomdb.jpg",
+        "url": {
+          "demo": "demo",
+          "source": "source"
+        }
+      },
+      {
+        "title": "Rate-au-rant",
+        "category": "Restauarant rating app built with PostgreSQL, Express, React, Node",
+        "image": "rate-au-rant.jpg",
+        "url": {
+          "demo": "demo",
+          "source": "source"
+        }
+      },
+      {
+        "title": "Quizy",
+        "category": "Quiz app built with React-Native and Open Trivia API",
+        "image": "quizy.jpg",
+        "url": {
+          "demo": "demo",
+          "source": "source"
+        }
+      },
+      {
+        "title": "Forkify",
+        "category": "Recipe app from my JavaScript course built with HTML, CSS, SASS, JavaScript and Forkify API",
+        "image": "forkify.jpg",
+        "url": {
+          "demo": "demo",
+          "source": "source"
+        }
+      }
+    ]
+  }
+}
