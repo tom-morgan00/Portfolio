@@ -4,7 +4,9 @@
     "occupation": "React Developer",
     "description": "Full Stack React Developer",
     "image": "tom.jpg",
-    "bio": "My name is Tom, I'm a Full Stack ReactJS Developer. I'm currently looking for employment as a Junior Dev."
+    "city": "Newport",
+    "bio": "My name is Tom, I'm a Front-End React Developer with additional experience on Backend as well. I enjoy problem-solving, being creative and working with the latest technologies.",
+    "status": "I'm currently looking for employment as a Junior Dev."
   },
   "contact": {
     "message": "Please feel free to send me a message via phone or email.",
@@ -25,86 +27,130 @@
     {
       "name": "linkedin",
       "url": "https://www.linkedin.com/in/thomas-morgan-519356171/",
-      "className": "fa fa-linkedin"
+      "className": "fab fa-linkedin"
     },
     {
       "name": "github",
       "url": "https://github.com/tom-morgan00",
-      "className": "fa fa-github"
+      "className": "fab fa-github"
     }
   ],
   "skills": {
-    "personal": [
-      "Problem-solving",
-      "Creative",
-      "Highly-motivated",
-      "Communication",
-      "Eager to learn"
+    "frontend": [
+      {
+        "name": "HTML",
+        "image": "html.jpg"
+      },
+      {
+        "name": "CSS",
+        "image": "css.jpg"
+      },
+      {
+        "name": "JavaScript",
+        "image": "js.jpg"
+      },
+      {
+        "name": "React",
+        "image": "react.jpg"
+      },
+      {
+        "name": "Redux",
+        "image": "redux.jpg"
+      }
     ],
-    "technologies": [
-      "HTML",
-      "CSS",
-      "JavaScript",
-      "React",
-      "Redux",
-      "Node",
-      "Express",
-      "MongoDB",
-      "PostgreSQL",
-      "NPM",
-      "Git",
-      "Bootstrap",
-      "Semantic UI",
-      "Visual Studio Code"
-    ]
-  },
-  "portfolio": {
-    "projects": [
+    "backend": [
       {
-        "title": "Tom's Vinyl",
-        "desc": "Ecommerce website built with MongoDB, Express, React, Redux, Node",
-        "image": "toms-vinyl.jpg",
-        "url": {
-          "demo": "demo",
-          "source": "source"
-        }
+        "name": "Node.js",
+        "image": "node.jpg"
       },
       {
-        "title": "TOMDb",
-        "category": "Movie Website (IMDB clone) built with React, Redux, Bootstrap, OMDb API)",
-        "image": "tomdb.jpg",
-        "url": {
-          "demo": "demo",
-          "source": "source"
-        }
+        "name": "Express",
+        "image": "express.jpg"
       },
       {
-        "title": "Rate-au-rant",
-        "category": "Restauarant rating app built with PostgreSQL, Express, React, Node",
-        "image": "rate-au-rant.jpg",
-        "url": {
-          "demo": "demo",
-          "source": "source"
-        }
+        "name": "NPM",
+        "image": "npm.jpg"
       },
       {
-        "title": "Quizy",
-        "category": "Quiz app built with React-Native and Open Trivia API",
-        "image": "quizy.jpg",
-        "url": {
-          "demo": "demo",
-          "source": "source"
-        }
+        "name": "MongoDB",
+        "image": "mongo.jpg"
       },
       {
-        "title": "Forkify",
-        "category": "Recipe app from my JavaScript course built with HTML, CSS, SASS, JavaScript and Forkify API",
-        "image": "forkify.jpg",
-        "url": {
-          "demo": "demo",
-          "source": "source"
-        }
+        "name": "PostgreSQL",
+        "image": "psql.jpg"
+      }
+    ],
+    "other": [
+      {
+        "name": "Git",
+        "image": "git.jpg"
+      },
+
+      {
+        "name": "Material UI",
+        "image": "material.jpg"
+      },
+      {
+        "name": "BootStrap",
+        "image": "bootstrap.jpg"
+      },
+      {
+        "name": "VS Code",
+        "image": "vs-code.jpg"
       }
     ]
-  }
+  },
+
+  "projects": [
+    {
+      "title": "Tom's Vinyl",
+      "description": "Ecommerce website",
+      "technologies": "MongoDB, Express, React, Redux, Node",
+      "image": "toms-vinyl.jpg",
+      "url": {
+        "demo": "demo",
+        "source": "source"
+      }
+    },
+    {
+      "title": "TOMDb",
+      "description": "Movie Website (IMDB clone)",
+      "technologies": "React, Redux, Bootstrap, OMDb API",
+      "image": "tomdb.jpg",
+      "url": {
+        "demo": "demo",
+        "source": "source"
+      }
+    },
+    {
+      "title": "Rate-au-rant",
+      "description": "Restauarant rating app",
+      "technologies": "PostgreSQL, Express, React, Node",
+      "image": "rate-au-rant.jpg",
+      "url": {
+        "demo": "demo",
+        "source": "source"
+      }
+    },
+    {
+      "title": "Quizy",
+      "description": "Quiz app",
+      "technologies": "React, React-Native and Open Trivia API",
+      "image": "quizy.jpg",
+      "url": {
+        "demo": "demo",
+        "source": "source"
+      }
+    },
+    {
+      "title": "Forkify",
+      "description": "Recipe app from my JavaScript course",
+      "technologies": "HTML, CSS, SASS, JavaScript and Forkify API",
+      "image": "forkify.jpg",
+      "url": {
+        "demo": "demo",
+        "source": "source"
+      }
+    }
+  ]
 }

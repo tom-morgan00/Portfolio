@@ -1,0 +1,139 @@
+#navbar {
+  background-color: #1a1a1afd;
+}
+
+#hero-section {
+  background-image: url('../images/background.jpg');
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 80vh;
+}
+
+#about {
+  background-color: #121212;
+  padding: 50px 0 150px;
+}
+
+.about__container {
+  width: 80%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.image img {
+  width: 100%;
+  max-width: 200px;
+  border-radius: 50%;
+}
+
+#skills {
+  background-color: #d6e1f0;
+  padding: 50px 0 100px;
+}
+
+.skills__container {
+  width: 80%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.skills__section {
+  padding: 20px 10px;
+}
+
+.skills__section h3 {
+  font-size: 2rem;
+  padding: 20px 10px 20px;
+}
+
+#projects {
+  background-image: url('../images/background2.jpg');
+  background-attachment: fixed;
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 50px 0 100px;
+}
+
+.projects__container {
+  width: 80%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+#contact {
+  background-color: #181818;
+  color: rgb(85, 85, 85);
+  padding: 50px 0 100px;
+}
+
+.contact__container {
+  text-align: center;
+  width: 80%;
+  max-width: 1200px;
+  margin: 0 auto;
+  font-size: 1.2rem;
+}
+
+.contact__section {
+  padding: 60px 0 100px;
+}
+
+.contact__section a {
+  color: rgb(85, 85, 85);
+}
+.contact__section a:hover {
+  color: rgb(126, 126, 126);
+}
+
+.email,
+.phone {
+  text-align: center;
+  font-size: 1.5rem;
+}
+.email i,
+.phone i {
+  font-size: 5rem;
+}
+
+#footer {
+  background-color: #121212;
+  color: rgb(85, 85, 85);
+  padding: 50px;
+}
+
+.footer__container {
+  text-align: center;
+  margin: 0 auto;
+  width: 80%;
+  max-width: 1200px;
+}
+
+.footer__container p {
+  margin-top: 30px;
+}
+
+.footer__social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer__social li {
+  margin: 0;
+  padding: 0 30px;
+}
+
+.footer__social-link {
+  font-size: 30px;
+  padding: 20px;
+}
+
+.footer__social-link a {
+  color: rgb(202, 202, 202);
+}
+
+.footer__social-link a:hover {
+  color: rgb(173, 173, 173);
+}
