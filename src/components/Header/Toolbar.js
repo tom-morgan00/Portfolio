@@ -1,6 +1,13 @@
-import { AppBar, IconButton, Toolbar, Hidden } from '@material-ui/core';
-import { List, ListItem, ListItemText } from '@material-ui/core';
-import { Container } from '@material-ui/core';
+import {
+  AppBar,
+  IconButton,
+  Toolbar,
+  Hidden,
+  List,
+  ListItem,
+  ListItemText,
+  Container,
+} from '@material-ui/core';
 import { makeStyles } from '@material-ui/core/styles';
 import HideOnScroll from './HideOnScroll';
 import SideDrawer from './SideDrawer';
@@ -46,7 +53,7 @@ export default function Header() {
                 </IconButton>
               </a>
             </div>
-            {/* Add code */}
+
             <Hidden smDown>
               <List
                 component="nav"
@@ -62,7 +69,7 @@ export default function Header() {
                 ))}
               </List>
             </Hidden>
-            {/* Add code end */}
+
             <Hidden mdUp>
               <SideDrawer navLinks={navLinks} />
             </Hidden>
