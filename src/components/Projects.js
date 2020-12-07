@@ -1,7 +1,6 @@
 import {
   Button,
   Card,
-  CardActionArea,
   CardActions,
   CardContent,
   CardMedia,
@@ -36,8 +35,9 @@ export default function Projects({ data }) {
                   <Card className={classes.root}>
                     <CardMedia
                       className={classes.media}
-                      image={`images/photo.jpg`}
-                      title="Contemplative Reptile"
+                      image={`images/portfolio/${
+                        project.image ? project.image : 'default.jpg'
+                      }`}
                     />
                     <CardContent>
                       <Typography gutterBottom variant="h5" component="h2">
@@ -61,14 +61,22 @@ export default function Projects({ data }) {
 
                     <CardActions>
                       {project.url.source ? (
-                        <a href={project.url.source}>
+                        <a
+                          href={project.url.source}
+                          rel="noreferrer"
+                          target="_blank"
+                        >
                           <Button size="small" color="primary">
                             Source Code
                           </Button>
                         </a>
                       ) : null}
                       {project.url.demo ? (
-                        <a href={project.url.demo}>
+                        <a
+                          href={project.url.demo}
+                          rel="noreferrer"
+                          target="_blank"
+                        >
                           <Button size="small" color="primary">
                             Demo
                           </Button>

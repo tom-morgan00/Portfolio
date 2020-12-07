@@ -2,18 +2,27 @@
   background-color: #1a1a1afd;
 }
 
+#navbar a:hover {
+  color: #10b3b3;
+}
+
+.brand a {
+  color: #ddd;
+}
+
 #hero-section {
   background-image: url('../images/background.jpg');
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  height: 80vh;
+  height: 100vh;
 }
 
 #about {
   background-color: #121212;
   padding: 50px 0 150px;
+  min-height: 80vh;
 }
 
 .about__container {
@@ -31,6 +40,7 @@
 #skills {
   background-color: #d6e1f0;
   padding: 50px 0 100px;
+  min-height: 80vh;
 }
 
 .skills__container {
@@ -55,6 +65,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   padding: 50px 0 100px;
+  min-height: 80vh;
 }
 
 .projects__container {
@@ -67,6 +78,7 @@
   background-color: #181818;
   color: rgb(85, 85, 85);
   padding: 50px 0 100px;
+  min-height: 60vh;
 }
 
 .contact__container {
@@ -78,7 +90,7 @@
 }
 
 .contact__section {
-  padding: 60px 0 100px;
+  padding: 120px 0;
 }
 
 .contact__section a {
@@ -101,7 +113,7 @@
 #footer {
   background-color: #121212;
   color: rgb(85, 85, 85);
-  padding: 50px;
+  padding-bottom: 30px;
 }
 
 .footer__container {
@@ -136,4 +148,28 @@
 
 .footer__social-link a:hover {
   color: rgb(173, 173, 173);
+}
+
+.back-to-top {
+  top: 0;
+  left: 50%;
+  position: relative;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.back-to-top a {
+  color: rgb(202, 202, 202);
+}
+.back-to-top i:hover {
+  color: rgb(173, 173, 173);
+  background-color: #181818;
+}
+
+.back-to-top i {
+  border-radius: 50%;
+  padding: 10px 15px;
+  font-size: 4rem;
+  color: rgb(202, 202, 202);
+  background-color: #121212;
 }

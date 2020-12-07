@@ -13,15 +13,11 @@
     "email": "thomas.morgan@btinternet.com",
     "phone": "07527 926 302"
   },
-  "education": {
-    "college": "Coleg Gwent",
-    "qualification": "BTEC Level 3 IT Extended Diploma",
-    "date": "September 2017 - June 2019"
-  },
+
   "social": [
     {
       "name": "email",
-      "url": "thomas.morgan@btinternet.com",
+      "url": "mailto:thomas.morgan@btinternet.com",
       "className": "fa fa-envelope"
     },
     {
@@ -67,10 +63,7 @@
         "name": "Express",
         "image": "express.jpg"
       },
-      {
-        "name": "NPM",
-        "image": "npm.jpg"
-      },
+
       {
         "name": "MongoDB",
         "image": "mongo.jpg"
@@ -85,7 +78,10 @@
         "name": "Git",
         "image": "git.jpg"
       },
-
+      {
+        "name": "NPM",
+        "image": "npm.jpg"
+      },
       {
         "name": "Material UI",
         "image": "material.jpg"
@@ -106,7 +102,7 @@
       "title": "Tom's Vinyl",
       "description": "Ecommerce website",
       "technologies": "MongoDB, Express, React, Redux, Node",
-      "image": "toms-vinyl.jpg",
+
       "url": {
         "demo": "demo",
         "source": "source"
@@ -118,27 +114,27 @@
       "technologies": "React, Redux, Bootstrap, OMDb API",
       "image": "tomdb.jpg",
       "url": {
-        "demo": "demo",
-        "source": "source"
+        "demo": "https://tomdb.netlify.app/",
+        "source": "https://github.com/tom-morgan00/TOMDb"
       }
     },
     {
       "title": "Rate-au-rant",
-      "description": "Restauarant rating app",
+      "description": "Restauarant rating CRUD app",
       "technologies": "PostgreSQL, Express, React, Node",
       "image": "rate-au-rant.jpg",
       "url": {
-        "demo": "demo",
-        "source": "source"
+        "source": "https://github.com/tom-morgan00/Rate-au-Rant"
       }
     },
+
     {
-      "title": "Quizy",
-      "description": "Quiz app",
-      "technologies": "React, React-Native and Open Trivia API",
-      "image": "quizy.jpg",
+      "title": "Booked",
+      "description": "Booklist app",
+      "technologies": "React, Context and Hooks",
+
       "url": {
-        "demo": "demo",
+        "demo": "https://booked-app.netlify.app/",
         "source": "source"
       }
     },
@@ -148,8 +144,8 @@
       "technologies": "HTML, CSS, SASS, JavaScript and Forkify API",
       "image": "forkify.jpg",
       "url": {
-        "demo": "demo",
-        "source": "source"
+        "demo": "https://forkify-by-tom-morgan.netlify.app/",
+        "source": "https://github.com/tom-morgan00/my-forkify"
       }
     }
   ]

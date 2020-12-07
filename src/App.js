@@ -1,11 +1,14 @@
 import React, { Component } from 'react';
-import Navbar from './components/Navbar';
+
 import About from './components/About';
 import Skills from './components/Skills';
 import Projects from './components/Projects';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import HeroSection from './components/HeroSection';
+
+import Header from './components/Header/Toolbar';
+// import Header from './navtest/Toolbar';
 
 export default class App extends Component {
   state = {
@@ -35,7 +38,8 @@ export default class App extends Component {
 
     return (
       <div className="App">
-        <Navbar data={data} />
+        <Header id="top" />
+
         <HeroSection data={data} />
         <About data={data} />
         <Skills data={data} />

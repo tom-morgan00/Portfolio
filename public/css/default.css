@@ -53,6 +53,10 @@ table {
   border-spacing: 0;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 ul,
 ol,
 li {

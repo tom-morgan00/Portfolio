@@ -2,14 +2,19 @@ import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import Container from '@material-ui/core/Container';
 import Typography from '@material-ui/core/Typography';
+import { Button } from '@material-ui/core';
 
 const useStyles = makeStyles({
   root: {
     maxWidth: 345,
   },
   heroContent: {
+    margin: 0,
+    position: 'absolute',
+    top: '50%',
+    left: '50%',
+    transform: 'translate(-50%, -50%)',
     textAlign: 'center',
-    padding: '25% 0',
     color: '#fff',
     textShadow: '3px 1px rgba(0,0,0,0.5)',
   },
@@ -21,6 +26,21 @@ const useStyles = makeStyles({
     fontSize: '30px',
     color: '#fff',
     padding: '20px',
+    '&:hover': {
+      color: '#ccc',
+    },
+  },
+  button: {
+    backgroundColor: 'rgba(0,0,0,0.2)',
+    padding: '18px 36px',
+    color: '#fff',
+    border: '1px solid #fff',
+    '&:hover': {
+      color: '#232323',
+      backgroundColor: '#fff',
+      fontWeight: 'bold',
+      border: 'none',
+    },
   },
 });
 
@@ -31,7 +51,12 @@ export default function HeroSection({ data }) {
     var socialLinks = social.map((social) => {
       return (
         <li key={social.name}>
-          <a className={classes.socialLinks} href={social.url}>
+          <a
+            className={classes.socialLinks}
+            href={social.url}
+            target="_blank"
+            rel="noreferrer"
+          >
             <i className={social.className}></i>
           </a>
         </li>
@@ -51,10 +76,22 @@ export default function HeroSection({ data }) {
           >
             {personal.name}.
           </Typography>
+          <br />
           <Typography variant="h4" gutterBottom>
             {personal.occupation}.
           </Typography>
+          <br />
+
           <section className={classes.heroLinks}>{socialLinks}</section>
+          <br />
+
+          <div className="projects-button">
+            <a href="/#projects">
+              <Button className={classes.button} variant="contained">
+                View Projects
+              </Button>
+            </a>
+          </div>
         </div>
       </Container>
     </section>

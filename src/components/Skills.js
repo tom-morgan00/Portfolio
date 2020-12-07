@@ -27,7 +27,7 @@ export default function Skills({ data }) {
     const renderLogo = (arr) => {
       return arr.map(({ name, image }) => {
         return (
-          <Grid key={name} item xs={4} sm={3} md={2}>
+          <Grid key={name} item xs={6} sm={3} md={2}>
             <Card className={classes.card}>
               <div style={{ paddingBottom: '10px' }}>
                 <img
