@@ -102,10 +102,10 @@
       "title": "Tom's Vinyl",
       "description": "Ecommerce website",
       "technologies": "MongoDB, Express, React, Redux, Node",
-
+      "image": "toms-vinyl.jpg",
       "url": {
-        "demo": "demo",
-        "source": "source"
+        "demo": "https://toms-vinyl.netlify.app/",
+        "source": "https://github.com/tom-morgan00/Tom-s-Vinyl"
       }
     },
     {
