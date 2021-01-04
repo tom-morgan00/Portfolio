@@ -119,6 +119,17 @@
       }
     },
     {
+      "title": "Quizy",
+      "description": "Quiz app",
+      "technologies": "React, Context and Open Trivia API",
+      "image": "quizy.png",
+      "url": {
+        "demo": "https://quizyyy.netlify.app/",
+        "source": "https://github.com/tom-morgan00/Quizy"
+      }
+    },
+
+    {
       "title": "Rate-au-rant",
       "description": "Restauarant rating CRUD app",
       "technologies": "PostgreSQL, Express, React, Node",
@@ -127,7 +138,6 @@
         "source": "https://github.com/tom-morgan00/Rate-au-Rant"
       }
     },
-
     {
       "title": "Booked",
       "description": "Booklist app",
@@ -138,6 +148,7 @@
         "source": "source"
       }
     },
+
     {
       "title": "Forkify",
       "description": "Recipe app from my JavaScript course",
