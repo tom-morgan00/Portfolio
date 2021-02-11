@@ -71,6 +71,10 @@
       {
         "name": "PostgreSQL",
         "image": "psql.jpg"
+      },
+      {
+        "name": "GraphQL",
+        "image": "graphql.jpg"
       }
     ],
     "other": [
@@ -82,6 +86,7 @@
         "name": "NPM",
         "image": "npm.jpg"
       },
+
       {
         "name": "Material UI",
         "image": "material.jpg"
